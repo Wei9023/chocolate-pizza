@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------------------------------------*/
+/*header*/
+/* ---------------------------------------*/
+header {
+    height: 60px;
+    
+}
+
+nav {
+    width:960px;
+    margin: 0px auto;
+}
+
+img{
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 0px;
+    list-style: none;
+}
+
+nav ul {
+    margin-top: 0px;
+    margin-right: 0px;
+    float: right;
+}
+
+h2 {
+    margin-top: 10px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+}
+
+div p{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+hr {
+    display: block;
+    height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+    margin-top: 30px;
+
+}
