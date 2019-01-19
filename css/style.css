@@ -1,13 +1,17 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-}
+    width: 960px;
+    margin: 0px auto;
+} 
 
 /* ---------------------------------------*/
 /*header*/
 /* ---------------------------------------*/
 header {
     height: 60px;
-    
+    margin: 0 0 50px 0;
+
 }
 
 nav {
@@ -15,7 +19,12 @@ nav {
     margin: 0px auto;
 }
 
-img{
+header div {
+    display:inline-block;
+   
+}
+
+nav img{
     float: left;
     margin-top: 10px;
     margin-right: 10px;
@@ -42,6 +51,8 @@ h2 {
 div p{
     font-size: 10px;
     margin-top: 5px;
+    float: left;
+    clear: left;
 }
 
 hr {
@@ -49,6 +60,163 @@ hr {
     height: 6px;
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
-    margin-top: 30px;
+    
+
+} 
+
+/* ----------------------- */
+/* MAIN */
+/* ----------------------- */
+
+ main {
+    width: 960px;
+    margin:40px auto;
+  
+  } 
+  
+ article header {
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  article h1 {
+    font-size: 18px;
+    
+  }
+
+  #title {
+      margin-top: 100px;
+      margin-bottom: 0;
+  }
+
+  h1 {
+      float: left;
+  }
+
+  #date {
+      float: left;
+  }
+
+  a {
+    float: right;
+}
+
+  a img{
+    
+    display: inline;
+  }
+
+  .recipe {
+      width: 960px;
+      height: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  article p {
+      font-family: serif;
+      line-height: 20px;
+      text-indent: 25px;
+  }
+
+  #list {
+      position: absolute;
+      z-index: -1;
+      display: block;
+     
+  }
+
+  #listone {
+      float: left;
+      z-index: 9;
+      width:310px;
+    
+  }
+
+  #listtwo {
+    float: left;
+    z-index:9;
+    width:425px;
+}
+
+.grocerylist {
+    display: block;
+    height:240px;
+    width:900px;
+    margin-bottom: 500px;
+}
+
+div ul {
+    margin-left: 40px;
+    margin-right: 0px;
+    font-size: 25px;
+    word-wrap: normal;
+    line-height: 33px;
+    padding-top: 30px;
+    
 
 }
+
+footer {
+    display: block;
+    margin-top: 50px;
+}
+
+footer section{
+    display: block;
+}
+
+#vanessa {
+    float: left;
+    margin-top: 20px;
+}
+
+#people {
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 13px;
+}
+
+#sectiontwo {
+    border-top: 1px solid grey;
+    margin-top: 150px;
+    padding-top: 50px;
+    
+}
+
+#comment {
+    font-size: 15px;
+    font-family: serif;
+}
+
+#line {
+    margin-top: 400px;
+    display: block;
+}
+
+button {
+    background-color: rgb(165, 17, 17);
+    height:45px;
+    width: 150px;
+    float:right;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+#sml-logo {
+    position: absolute;
+    margin-top: 130px;
+    left: 0;
+    right: 0;
+    margin:130px auto;
+}
+
+
+
+ 
